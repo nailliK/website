@@ -47,7 +47,8 @@ jobs:
             ${{ runner.os }}-nextjs-${{ hashFiles('**/bun.lockb') }}-
       - name: Download fonts
         run: |
-          gh release download fonts --pattern 'fonts.zip' --dir /tmp
+          ASSET_URL=$(gh api repos/${{ github.repository }}/releases --jq '[.[] | select(.draft==true and (.tag_name | contains("fonts")))][0].assets[0].url')
+          curl -L -o /tmp/fonts.zip -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" -H "Accept: application/octet-stream" "$ASSET_URL"
           unzip /tmp/fonts.zip -d .
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
