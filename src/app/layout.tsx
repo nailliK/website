@@ -20,8 +20,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={'flex items-center justify-center min-h-full'}>
-      <body>{children}</body>
+    <html lang="en" className={'flex items-center justify-center min-h-full w-full'}>
+      <body className={'shrink'}>{children}</body>
     </html>
   );
 }
