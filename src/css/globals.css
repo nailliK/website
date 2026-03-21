@@ -15,19 +15,19 @@
   }
 
   h1 {
-    @apply text-6xl;
-  }
-
-  h2 {
     @apply text-5xl;
   }
 
-  h3 {
+  h2 {
     @apply text-4xl;
   }
 
-  h4 {
+  h3 {
     @apply text-3xl;
+  }
+
+  h4 {
+    @apply text-2xl;
   }
 
   a {

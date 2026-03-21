@@ -4,7 +4,7 @@ export default function Where() {
   return (
     <section>
       <h3>Where</h3>
-      <ul className={'flex gap-2'}>
+      <ul className={'flex gap-4'}>
         <li>
           <a href={'sms:+17202319248'} title={'SMS'}>
             📞

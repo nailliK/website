@@ -1,8 +1,8 @@
 export default function Killian() {
   return (
-    <header className={'text-center'}>
+    <header className={'text-center mb-8'}>
       <svg
-        className={'inline-block h-24 w-auto'}
+        className={'inline-block mb-4 h-24 w-auto'}
         width="533"
         height="888"
         viewBox="0 0 533 888"
@@ -27,7 +27,7 @@ export default function Killian() {
         />
       </svg>
 
-      <h1 className={'leading-28 grow'}>Killian Grant</h1>
+      <h1>Killian Grant</h1>
     </header>
   );
 }
