@@ -3,7 +3,7 @@
 
 @layer base {
   html, body {
-    @apply min-h-screen w-full bg-background text-foreground font-primary;
+    @apply w-full bg-background text-foreground font-primary;
   }
 
   body {
