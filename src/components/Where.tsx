@@ -26,6 +26,11 @@ export default function Where() {
           </a>
         </li>
         <li>
+          <a href={'https://secrethandshake.io'} target={'_blank'} title={'Secret Handshake'}>
+            🤝
+          </a>
+        </li>
+        <li>
           <a
             href={
               'https://github.com/nailliK/resumes/releases/download/2026-03-21/KillianLouisGrant-QualificationsSummary-GeneralistProfile.pdf'
