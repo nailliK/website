@@ -33,4 +33,8 @@
   a {
     @apply text-primary;
   }
+
+  li {
+    @apply p-6 text-base;
+  }
 }
