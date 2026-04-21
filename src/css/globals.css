@@ -35,6 +35,6 @@
   }
 
   li {
-    @apply p-6 text-base;
+    @apply text-base;
   }
 }
